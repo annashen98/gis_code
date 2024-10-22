@@ -5,3 +5,4 @@ library(gitcreds)
 gitcreds_set()
 
 use_github()
+library(tidyverse)
