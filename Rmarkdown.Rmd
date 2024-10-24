@@ -1,0 +1,21 @@
+---
+title: "RMarkdown"
+output: html_document
+date: "2024-10-24"
+---
+
+```{r}
+library(terra)
+
+jan<-terra::rast("D:/ucl-gis/wk3/prac3/wc2.1_5m_tavg_01.tif")
+# have a look at the raster layer jan
+plot(jan)
+```
+
+```{r}
+
+```
+
+
+
+
